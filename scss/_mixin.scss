@@ -1,0 +1,21 @@
+@mixin global__btn {
+    width: 217px;    
+    height: 56px;
+    background: #66D2CF;
+    border-radius: 6px;
+    padding: 15px 31px 16px 31px;
+    border: none;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    cursor: pointer;
+}
+@mixin dFlex {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
